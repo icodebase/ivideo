@@ -3,7 +3,7 @@
 ivideo是开源的，你可以免费使用它，但正因为开源，因此插入恶意代码是很容易的事，所以请认准仓库发行页面的下载地址：
 
 - 仓库地址：[AI千集](https://aiqianji.com/icodebase/ivideo) 和 [GitHub](https://github.com/icodebase/ivideo)
-- 发行版发布地址：[AI千集 releases](https://aiqianji.com/icodebase/ivideo/releases) 和 [Github releases](https://github.com/icodebase/ivideo/releases)
+- 发行版发布地址：https://aiqianji.com/blog/project/4
 
 ## 🔨 开发
 
@@ -108,8 +108,4 @@ pyinstaller -wy -i icon.icns ivideo.py # 为了图标格式兼容，Mac 用户�
 
 然后就可以打包了，Windows 下可以打包成 `7z` 格式，Mac、Linux 用户不要打包` zip`、`7z` 格式！因为这会让可执行文件的权限消失！Mac、Linux 用户可以用 `tar.gz` 或者 `dmg` 格式打包。
 
-建议打包后的命名成类似 `ivideo_Mac_v1.2.0_pyinstaller.dmg` 这样的。如果你是志愿者，为这个项目打包，你也可以在命名后面加上你的 id 等信息。
-
-在发包的时候，建议上传到蓝奏云、天翼云，新建一个文件夹，将包放到这个文件夹里，再把这个文件夹的分享链接发出来，这样，以后要更新的话，只要把新版本放到那个文件夹，分享链接就不用变了。
-
-你可以将打包好的云盘文件夹链接发给作者，作者会把这个链接放到 release 页面。
+建议打包后的命名成类似 `ivideo_Mac_v1.2.0.dmg`。
